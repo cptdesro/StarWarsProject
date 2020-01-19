@@ -1,0 +1,61 @@
+﻿body {
+    background-color: #de92924d;
+}
+
+#root {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sw-img {
+    width: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+}
+.box h1 {
+    margin: 10px 7px 10px 7px;
+}
+
+.characterCard {
+    margin: 1rem;
+    border: 1px solid gray;
+    flex: 1 1 calc(33% - 2rem);
+}
+
+#character-attributes {
+    margin: 5px 5px 5px 5px;
+}
+
+.select-sort-attributes {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+}
+
+select {
+    width: inherit;
+}
+
+
+
+
+
+
+
+
+
+
