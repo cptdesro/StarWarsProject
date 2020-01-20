@@ -50,7 +50,7 @@ namespace TheStarWarsProject
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}");
+                    pattern: "{controller=Characters}/{action=Index}/{id?}");
             });
         }
     }
