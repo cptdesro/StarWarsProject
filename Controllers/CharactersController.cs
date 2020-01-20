@@ -8,7 +8,6 @@ namespace TheStarWarsProject.Controllers
 {
     public class CharactersController : Controller
     { 
-        // GET: /Home/
         public ActionResult Index()
         {
             List<Character> characters = GetCharacters("./App_Data/Characters.json");
